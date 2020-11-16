@@ -1,6 +1,11 @@
-(?                        ; how many measures there are (if left ?, OM will
-                          ;   compute voice's rhythm information per measure
-  (                       ;
+; Rhythm Tree Worksheet
+; for OpenMusic
+; Yoshiaki Onishi, November 2020
+
+(?                        ; Duration (D) where 1 = a whole note. (if left ?,
+                          ; OM will compute voice's rhythm information
+                          ;
+  (                       ; Start of Subdivision (S)
     (                     ; measure 1
       (4 8)               ; time signature also 4//8 without enclosing
                           ;   parentheses will work.
