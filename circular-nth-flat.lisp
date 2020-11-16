@@ -2,7 +2,7 @@
 ; Yoshiaki Onishi, October 26, 2020
 ; nth function, except it can handle a negative integer for "nth" value of
 ; the list.
-; NB: "xth" inlet accepts number of ±(length list-to-be-processe)
+; NB: "xth" inlet accepts number of ±(length list-to-be-processed)
 
 (defun circular-nth-flat (xth list-to-be-processed)
 
